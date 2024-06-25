@@ -190,7 +190,7 @@ export function frb64Encode(root: unknown, options = {}): string {
   }
 }
 
-function test(doc: unknown, options): string {
+function test(doc: unknown, options?): string {
   const encodedDoc = frb64Encode(doc, options)
   let trunc = encodedDoc
   console.log()
