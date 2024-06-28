@@ -53,13 +53,17 @@ null                                                                          nu
   "repetition",
   "repetition" ]
 
-["repetition","repetition","repetition"]  repetition$a&&1]f
+["repetition","repetition","repetition"]
+
+repetition$a&&1]f
 
 [ { word: 'word' },
   { word: 'word' },
   { word: 'word' } ]
 
-[{"word":"word"},{"word":"word"},{"word":"word"}]  word$4&}7&&1]c
+[{"word":"word"},{"word":"word"},{"word":"word"}]
+
+word$4&}7&&1]c
 
 [ { color: 'red', 
     fruits: [ 'apple', 'strawberry' ] },
@@ -68,5 +72,7 @@ null                                                                          nu
   { color: 'yellow',
     fruits: [ 'apple', 'banana' ] } ]
 
-[{"color":"red","fruits":["apple","strawberry"]},{"color":"green","fruits":["apple"]},{"color":"yellow","fruits":["apple","banana"]}]  banana$6apple$5]ffruits$6yellow$6color$5}E&r]2&lgreen$5&f}f&d&Ared$3&s}b]81
+[{"color":"red","fruits":["apple","strawberry"]},{"color":"green","fruits":["apple"]},{"color":"yellow","fruits":["apple","banana"]}]
+
+banana$6apple$5]ffruits$6yellow$6color$5}E&r]2&lgreen$5&f}f&d&Ared$3&s}b]81
 ```
