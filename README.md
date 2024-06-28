@@ -1,5 +1,9 @@
 # frj64
 
+Fast Random-Access schema-less data that serialized to a text format.
+
+The format is written in natural depth-first traversal order with headers after values (so that no buffer is required in the encoder).  The decoder reads by starting at the last byte and walking backwards to the desired value.  Each value is either inline or a length-prefixed container so that any value can be skipped with a single indirection. No scanning is required beyond parsing the base64 header values.
+
 ```frj64
 JavaScript                            JSON  Unnamed
 -1e6                              -1000000  ~09Q3
